@@ -1,6 +1,11 @@
 import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
+//Imported the container so that we can take push and pop screens cause data is screens are inside Contaner(Check App.jsx) 
 import {NavigationContainer} from '@react-navigation/native';
+
+/*For getting navigation object and it has many function{Remember: Console.log() console is object and log is function and we are calling the function by 
+log( )
+same concept  navigation is object that is destructure(cause we wanna use methods inside it one by one ) and navigate() is function }*/
 import {createNativeStackNavigator } from '@react-navigation/native-stack'
 
 
