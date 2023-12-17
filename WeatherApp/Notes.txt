@@ -1,0 +1,33 @@
+1. allignItems: horizontally{REM by allign means horizontal}: items of parent center krta
+
+2. justifyContext: veritally : items of parent center krta
+
+ alignSelf: 'center', Is for alliging the parent itself
+
+{learn which flex property uses on parent and child }
+
+3. Always give first tag of jsx as flex:1 { so that it can occppy whole phone}
+
+const Wrap = () => {
+  return (
+    <View style={{flex:1,}}>
+      <Text>Give flex:1 to View </Text>
+    </View>
+  )
+}
+
+4. In react we have 3 kinda List: 
+FlatList: e.g. List of students It's a scrollable
+
+
+SectionList: List in sections e.g.: seaFood List , WhiteMeat List , RedMeat List , Veggie List,
+
+
+VirtualizeList: Not very often use 
+
+Learn More about backGroundImage which is used in UpcomingWeather Screen 
+
+Props send Data to parents to child: example we gave prop to children1 Name="Hena" ,  children2 Name="Nena"
+These props written in Parent that's why data is sending from parent to children It's uniDirectional
+
+Try to make comps as much as you can so that can use it once again and data can be change through props but zabardasti nhi jaaha ban raha waha banana hai 

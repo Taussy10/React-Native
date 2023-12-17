@@ -2,6 +2,11 @@ import {Image, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React from 'react';
 import Colors from '../Assets/Shared/Colors';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import {
+  GoogleSignin,
+  GoogleSigninButton,
+  statusCodes,
+} from 'react-native-google-signin';
 
 const Login = () => {
   const icon = <FontAwesome5 name={'google'} style={styles.font} />;

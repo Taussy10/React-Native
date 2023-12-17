@@ -14,7 +14,6 @@ const App = () => {
   return (
     <SafeAreaView> 
       <ScrollView>
-      
       <FlatCards/>
       <ElevatedCards/>
       <FancyCards/>
