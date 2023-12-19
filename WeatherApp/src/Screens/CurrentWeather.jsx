@@ -4,9 +4,9 @@ import { weatherType } from '../Utilties/WeatherType';
 
 const CurrentWeather = () => {
   return (
-    <SafeAreaView style={styles.wrapper}>
+      <SafeAreaView style={styles.wrapper}>
       <View style={styles.container}>
-        <Text  className="  text-5xl " >Current Weather</Text>
+        <Text>Current Weather</Text>
         <Text style={styles.temp}> {/* Temp: */} 6 </Text>
      
         <Text style={styles.feels}>Feels Like 5 </Text>
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
   },
   container: {
-    flex: 1,
+    
     backgroundColor: 'pink',
     alignItems: 'center',
   },
@@ -50,7 +50,6 @@ const styles = StyleSheet.create({
   },
   bodyWrapper: {
     alignItems: 'center',
-    // backgroundColor:'red',
   },
   desc: {
     fontSize: 48,

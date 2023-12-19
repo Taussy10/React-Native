@@ -1,5 +1,4 @@
-// babel.config.js
 module.exports = {
-   plugins: [],
-   plugins: ["nativewind/babel"],
-  };
+   presets: ['module:@react-native/babel-preset'],
+ };
+ 

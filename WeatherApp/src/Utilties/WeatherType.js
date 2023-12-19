@@ -36,7 +36,7 @@ export const weatherType = {
   },
   Mist:{
     icon: 'align-justify',
-    message: "It might hard to see",
+    message: 'It might hard to se',
     backgroundColor: 'grey',
   },
   

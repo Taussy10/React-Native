@@ -1,4 +1,4 @@
-/* eslint-disable react-native/no-inline-styles */
+
 /* eslint-disable quotes */
 
 /* eslint-disable prettier/prettier */
